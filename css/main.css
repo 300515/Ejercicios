@@ -3,3 +3,12 @@ p {
     border-radius: 100px;
     padding:20px
   }
+  
+  a {
+    background-color: greenyellow;
+    transition: background-color .5s;
+  }
+
+  a:hover {
+    background-color: rgb(255, 195, 255);
+  }
