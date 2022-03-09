@@ -7,13 +7,21 @@
 </head>
 <body>
 
-        <h1>Ventana emergente</h1>
+        <h1>Calculadora</h1>
 
-    <button>
+        <label for="first">Primer numero:</label>
+        <input id="primerNumero" type="number">
+        <br>
+        <br>
+        <label for="second">Segundo numero:</label>
+        <input id="segundoNumero" type="number">
+        <br>
+        <br>
 
-    <a onclick="alert('Hola mundo'); return false;">Texto</a>
-
-</button>
+        <input type="button" value="SUMA" onclick="calcular('suma')">
+        <input type="button" value="RESTA" onclick="calcular('resta')">
+        <input type="button" value="MULTIPLICACION" onclick="calcular('multiplicación')">
+        <input type="button" value="DIVISION" onclick="calcular('división')">
 </body>
 
 </html>
